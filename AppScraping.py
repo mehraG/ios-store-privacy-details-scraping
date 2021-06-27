@@ -14,7 +14,7 @@ def iserror(func_name, args):
     except:
         return True
 
-driver = webdriver.Chrome(executable_path ='F:/projects/kumud mam/chromedriver.exe')
+driver = webdriver.Chrome('./linux-chromedriver')
 
 driver.get('https://apps.apple.com/in/app/steps-step-counter-activity/id719208154')
 results = []
